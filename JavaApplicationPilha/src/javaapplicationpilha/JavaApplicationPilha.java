@@ -1,14 +1,5 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package javaapplicationpilha;
 
-/**
- *
- * @author leona
- */
 public class JavaApplicationPilha {
 
     /**
@@ -34,10 +25,9 @@ public class JavaApplicationPilha {
         System.out.println("Topo: "+pilhaDinamica.peek());
         for (int i = 10; i < 16; i++) {
             System.out.println("Elemento removido: "+pilhaDinamica.pop());
+            System.out.println("Pilha: "+pilhaDinamica.show());
+            System.out.println("Topo: "+pilhaDinamica.peek());
         }
-        
-        System.out.println("Topo: "+pilhaDinamica.peek());
-        System.out.println("Pilha: "+pilhaDinamica.show());
     }
     
     public static void pilhaEstatica(){
